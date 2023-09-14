@@ -26,10 +26,9 @@ struct lcircular {
                 ultimo = ultimo->sig;
             }
 
-            // Calcular la suma
             int suma = ultimo->valor + valor;
 
-            //  nodo con la suma y los punteros
+            
             newNodo->valor = suma;
             newNodo->sig = cabeza;
             ultimo->sig = newNodo;
